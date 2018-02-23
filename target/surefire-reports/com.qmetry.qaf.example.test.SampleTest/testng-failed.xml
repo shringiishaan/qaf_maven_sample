@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.qmetry.qaf.example.test.SampleTest]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.qmetry.qaf.example.test.SampleTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.qmetry.qaf.example.test.SampleTest">
+        <methods>
+          <include name="testGoogleSearch1"/>
+          <include name="testGoogleSearch2"/>
+          <include name="setupMethod"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="afterSuit"/>
+          <include name="testGoogleSearch3"/>
+          <include name="testGoogleSearch4"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="testGoogleSearch41"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.example.test.SampleTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.qmetry.qaf.example.test.SampleTest] -->
